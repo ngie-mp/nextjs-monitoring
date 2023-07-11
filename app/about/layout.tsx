@@ -1,4 +1,11 @@
-import React from 'react'
+import styles from './styles.module.css'
+import type { Metadata } from '@next';
+
+export const metadata: Metadata = {
+    title: 'About Page',
+    description: 'Monitoring [poc] application',
+  }
+  
 
 export default function AboutLayout({
     children,
@@ -7,8 +14,7 @@ export default function AboutLayout({
   }) {
     return (
         <>
-            <div>Aboutlayout</div>
-            <main>
+            <main className={styles.main}>
                 {children}
             </main>
         </>

@@ -1,0 +1,6 @@
+.main {
+    min-height: 100vh;
+    display: grid;
+    background-color: #f9f5f5;
+    color: #333;
+}
